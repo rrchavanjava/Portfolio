@@ -21,7 +21,7 @@ export default function App() {
         <Experience />
         <Education />
         <Projects />
-        {/* <Certification /> */}
+        <Certification />
         <Contact />
         <ScrollToTopButton />
       </div>
