@@ -74,7 +74,7 @@ const Navbar = () => {
               "Experience",
               "Education",
               "Projects",
-              // "Certifications",
+              "Certifications",
               "Contact",
             ].map((item, index) => (
               <li key={index}>
