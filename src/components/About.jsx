@@ -120,14 +120,16 @@ const About = () => {
             />
 
             {/* Name */}
+           
             <motion.h1
-              variants={animatedContainer(0)}
-              initial="hidden"
-              animate="visible"
-              className="pb-8 text-4xl font-thin tracking-tight mt-6 lg:mt-10 lg:text-5xl"
+                variants={animatedContainer(0)}
+                initial="hidden"
+                animate="visible"
+                className="mt-6 pb-4 text-3xl font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent shadow-lg lg:mt-10 lg:text-4xl"
             >
-              Rohan Chavan
+                Rohan Chavan
             </motion.h1>
+
 
             {/* Role */}
             <motion.div
