@@ -4,16 +4,16 @@ import jsIcon from "/assets/icons/frontend/js.svg";
 import reactIcon from "/assets/icons/frontend/react.svg";
 import reduxIcon from "/assets/icons/frontend/redux.svg";
 import bootstrapIcon from "/assets/icons/frontend/bootstrap.svg";
-import materialUiIcon from "/assets/icons/frontend/material-ui.svg";
+import jQuery from "/assets/icons/backend/JQuery-Logo.svg";
 import tailwindCssIcon from "/assets/icons/frontend/tailwind-css.svg";
 
 // import pythonIcon from "/assets/icons/backend/python.svg";
-import nodeIcon from "../../assets/icons/backend/nodejs.svg";
 import javaIcon from "../../assets/icons/backend/java.svg"
 import csharpIcon from "../../assets/icons/backend/csharp.svg"
 import springIcon from '../../assets/icons/backend/spring.svg'
 import springbootIcon from "../../assets/icons/backend/spring_boot.svg"
 import hibernateIcon from "../../assets/icons/backend/hibernate.svg"
+import dotnet from "../../assets/icons/backend/dotnet.svg"
 
 import mysqlIcon from "/assets/icons/backend/mysql.svg";
 import postgresqlIcon from "/assets/icons/backend/postgresql.svg";
@@ -29,9 +29,7 @@ import awsDeveloperBadge from "/assets/images/aws-developer-badge.png";
 import awsSolutionBadge from "/assets/images/aws-solutions-badge.png";
 import terraformBadge from "/assets/images/terraform-associate-badge.png";
 
-export const ABOUT_CONTENT = `Motivated Full Stack Developer and a Msc student specialized in Computer Science. With a solid background in Computer science, Web development and Backend Developement, I build solutions that leverage data for real-world impact. Explore my projects to see how I combine technical skills with creative problem-solving.
-
-`;
+export const ABOUT_CONTENT = `Full Stack Developer with 1 year of professional experience in designing and developing enterprise web applications using .NET Core, C#, React.js, REST APIs, and SQL Server/MySQL. Experienced in building scalable business solutions, implementing secure backend APIs, optimizing database performance, and developing responsive user interfaces. Passionate about writing clean, maintainable code and continuously learning new technologies to deliver high-quality software.`;
 
 export const TECHNOLOGIES = {
   Frontend: [
@@ -41,16 +39,16 @@ export const TECHNOLOGIES = {
     { icon: reactIcon, name: "React" },
     { icon: reduxIcon, name: "Redux" },
     { icon: bootstrapIcon, name: "BootStrap" },
-    { icon: materialUiIcon, name: "Material UI" },
+    { icon: jQuery, name: "jQuery" },
     { icon: tailwindCssIcon, name: "Tailwind CSS" },
   ],
   Backend: [
     { icon: javaIcon, name: "Java" },
     { icon: csharpIcon, name: "C#" },
+    { icon: dotnet, name: ".NET" },
     { icon: springIcon, name: "Spring" },
     { icon: springbootIcon, name: "SpringBoot" },
     { icon: hibernateIcon, name: "Hibernate" },
-    { icon: nodeIcon, name: "Node JS" },  
   ],
   Database: [
     { icon: mysqlIcon, name: "MySQL" },
@@ -68,18 +66,18 @@ export const TECHNOLOGIES = {
 
 export const EXPERIENCES = [
   {
-    year: "Jan 2025 - July 2025",
-    role: "Java Intern",
-    company: "Seven Mentor Pvt. Ltd",
-    description: `Completed a Full-Stack Development internship at SevenMentor Pvt. Ltd., working with Java (Spring Boot) and React.js. Built responsive UIs and REST APIs while integrating frontend and backend for real-world applications.`,
-    technologies: ["Core Jav", "Advance Java", "React", "REST API", "MySQL"  ],
+    year: "Dec 2025 - Present",
+    role: "Full Stack Developer",
+    company: "Technosync Innovation Pvt. Ltd",
+    description: `Worked on Enterprise applications including Jewellery Sync ERP, Task Sync, and Gold Valuation System. Contributed to ERP modules such as Inventory, Purchase, Sales, Production, Job Work, and Customer Management. Developed RESTful APIs using .NET Core, built responsive React.js interfaces, implemented business logic, optimized MySQL database operations, and integrated Excel import/export and bulk data upload features to improve business efficiency.`,
+    technologies: ["C#", ".Net Core", "jQuery", "React", "REST API", "MySQL"  ],
   },
-  {
-    year: "Jan 2023 - Mar 2023",
-    role: "Data Science Intern",
-    company: "Teachnooc Services",
-    description: `Developed predictive models using machine learning to forecast business trends. Cleaned, processed, and visualized data using Python (Pandas, NumPy, Matplotlib). Created dashboards and reports using Power BI/Tableau for data-driven insights.`,
-    technologies: ["Python", "Pandas", "Numpy", "Power BI", "Tableau" , 'Matplotlib'],
+   {
+    year: "Jan 2025 - July 2025",
+    role: ".NET Intern",
+    company: "Seven Mentor Pvt. Ltd",
+    description: `Completed a Full-Stack Development internship at SevenMentor Pvt. Ltd., working with C# and React.js. Built responsive UIs and REST APIs while integrating frontend and backend for real-world applications.`,
+    technologies: ["C#", ".NET Core", "React", "REST API", "MySQL"  ],
   },
 ];
 
@@ -114,7 +112,24 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
-
+  {
+    title: "Jewellery Sync ERP - Manufacturing ERP & Pro",
+    description: "Worked on ERP modules including Inventory, Purchase, Sales, Production, Job Work, and Customer Management. Developed REST APIs using .NET Core, built responsive React.js interfaces, implemented business logic, optimized MySQL queries, and integrated Excel import/export features for enterprise applications.",
+    technologies: [".NET Core", "C#", "SQL Server", "HTML","CSS", "Bootstrap", "JavaScript", "jQuery", "REST API", "Git"],
+    githubLink: "",
+  },
+  {
+    title: " Task Sync – Team Collaboration & Task Management System",
+    description: "Developed a full-stack team collaboration and task management application that enables organizations to create, assign, track, and manage tasks efficiently. Implemented secure user authentication, role-based access control, task status tracking, due dates, priority management, and RESTful APIs. Using SingalR Developed real-time one-to-one and group chat, one-to-one and group video calling, file sharing, and team collaboration features to improve communication and productivity.",
+    technologies: [".NET Core", "C#", "React.js", "SQL Server", "REST API", "JavaScript", "Bootstrap", "Git"],
+    githubLink: "",
+  },
+  {
+    title: " Gold Valuation System",
+    description: "Developed a full-stack Gold Valuation System to calculate the value of old gold ornaments based on purity, weight, wastage, deductions, and current gold rates. Built secure RESTful APIs using .NET Core and developed a responsive React.js interface for efficient valuation. Implemented customer management, valuation history, invoice generation, Excel import/export, Bulk Upload and SQL Server integration to ensure accurate calculations and streamlined business operations.",
+    technologies: [".NET Core", "C#", "React.js", "SQL Server", "REST API", "JavaScript", "Bootstrap", "Git"],
+    githubLink: "",
+  },
   {
     title: " Billing Software System",
     description:
