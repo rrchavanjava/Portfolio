@@ -88,7 +88,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { Element } from "react-scroll";
 import { motion } from "framer-motion";
 import { FaDownload } from "react-icons/fa";
-import ResumePDF from "../../assets/pdf/Rohan_Raju_Chavan.pdf";
+import ResumePDF from "../../assets/pdf/Rohan_Chavan.pdf";
 import ProfileImg from "../../assets/images/Rohan11.jpg"; // ⭐ your photo path
 
 const animatedContainer = (delay) => ({
